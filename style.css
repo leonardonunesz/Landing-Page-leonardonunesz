@@ -1,5 +1,105 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Krona One;
+  color: #F0F0F0;
+  text-decoration: none;
   
+}
+
+body {
+  background: #1C1C1C;
+  
+}
+
+.header-logo {
+  background: rgba(33, 107, 16, 0.52);
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+  align-items: center;
+  max-width: 100%;
+}
+
+.logo-leonardo {
+  font-family: Lexend Exa;
+  font-weight: 400;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+}
+
+.photo {
+  position: relative;
+  rotate: y 180deg;
+  height: 26rem;
+  z-index: 10;
+  margin-bottom: -9px;
+}
+
+.hero-text > hr {
+  height: 2px;
+  color: white;
+  background-color: white;
+  border:  none;
+  max-width: 100%;
+}
+
+.hero {
+  background: rgba(0, 65, 3, 0.6);
+
+}
+
+.hero-container > div > h1 {
+  font-size: 1.75rem;
+  text-transform: uppercase;
+
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 100%;
+  margin: 0 auto 0;
+  
+}
+
+.hero-container > div:nth-child(n + 2) {
+  width: 100%;
+  
+}
+
+.hero-text {
+  margin: auto;
+  padding: 6rem;
+}
+
+.rightside {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 100%;
+  background: #2C6138;
+  margin-right: -100px;
+}
+
+.rightside > div:nth-child(2) {
+  grid-column: 1;
+  position: relative;
+  margin-top: -330px ;
+  margin-left: -90px;
+}
+
+.rightside > div:nth-child(3) {
+  grid-column: 2;
+  grid-row: 1;
+  position: relative;
+  margin: 30px 100px 0 0;
+  padding-left: 70px;
+}
+
+.rightside > div:nth-child(4) {
+  grid-column: 2;
+  grid-row: 1;
+  position: relative;
+  margin-top: 190px;
+  margin-right: 100px;
 }
